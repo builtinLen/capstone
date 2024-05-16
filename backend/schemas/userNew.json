@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://our.playlist.com/userNew.schema.json",
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "string"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "profile_url": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": ["username", "display_name", "image", "profile_url"]
+}
