@@ -3,7 +3,7 @@
 
 ## **Live Website**
 
-### 👉 [Click here to open website](lennyspotifyclone.surge.sh/)
+### 👉 [Click here to open website](https://lennyspotifyclone.surge.sh/)
 
 ---
 
