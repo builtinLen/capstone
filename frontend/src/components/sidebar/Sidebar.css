@@ -1,0 +1,60 @@
+.Sidebar {
+  flex: 0.2;
+  background-color: #040404;
+  min-width: 230px;
+  max-width: 300px;
+  min-height: 100vh;
+  padding: 0 10px 0 10px;
+  overflow-y: overlay;
+  top: 0;
+  bottom: 0;
+}
+
+.Sidebar-nav {
+  position: fixed;
+  top: 0;
+}
+
+.Sidebar-logo {
+  display: block;
+  height: 45px;
+  padding: 20px;
+  margin: auto;
+}
+
+.Sidebar-title {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.Sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.Sidebar-nav > button {
+  font-size: 12px;
+  background-color: black;
+  border: none;
+  padding: 0;
+}
+
+.Sidebar-playlists {
+  position: fixed;
+  min-width: 230px;
+  max-width: 300px;
+  top: 22em;
+  bottom: 0;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 95px;
+}
+
+/* for safari only */
+_::-webkit-full-page-media,
+_:future,
+:root .Sidebar-playlists {
+  top: 18em;
+}

@@ -1,0 +1,42 @@
+.SlidingPanel > div > button {
+  position: fixed;
+  color: white;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  border-radius: 4px;
+  border: none;
+  padding: 5px 3px;
+  margin: 4px 2px;
+  left: 17em;
+  top: 0;
+  z-index: 5;
+}
+.SlidingPanel > div > button:hover {
+  background-color: hsla(0, 0%, 100%, 0.3);
+}
+
+.Pop-out-slider,
+.Pop-out-slider > div {
+  background-color: black;
+  color: white !important;
+  text-align: center;
+  z-index: 999 !important;
+}
+
+.slide-pane .slide-pane__title {
+  font-size: 15px;
+  font-weight: bold;
+  transform: translate(-2em, 0);
+  /* Show max 2 lines of text */
+  white-space: normal;
+}
+
+.Pop-out-slider-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em;
+}
+
+.Pop-out-slider-content > a,
+.Pop-out-slider-content > p > * {
+  color: #1ed15e;
+}

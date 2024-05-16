@@ -1,0 +1,109 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100vw;
+  background-color: rgb(24, 24, 24);
+  padding: 20px;
+  z-index: 99;
+}
+
+.Footer-left {
+  display: flex;
+  float: left;
+  flex: 0.45;
+  align-items: center;
+  color: white;
+  max-width: 30vw;
+  /* margin-right: 3em; */
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Footer-albumLogo {
+  height: 60px;
+  width: 50px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.Footer-songInfo {
+  width: 100%;
+}
+
+.Footer-center {
+  display: block;
+  flex: 0.2;
+}
+
+.Footer-center-controls,
+.Footer-control-timeline {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  max-width: 200px;
+}
+
+.Footer-control-slider {
+  width: 25em;
+  margin: 0 1em;
+}
+
+/* for safari only */
+_::-webkit-full-page-media,
+_:future,
+:root .Footer-center {
+  font-size: 13px;
+}
+
+.Footer-green {
+  color: #1ed15e;
+}
+
+.Footer-songInfo > h4 {
+  margin-bottom: 5px;
+}
+
+.Footer-songInfo > p {
+  font-size: 12px;
+}
+
+/* make play button bigger */
+.Footer-icon {
+  color: rgba(255, 255, 255, 0.686);
+}
+
+/* make play button bigger */
+.Footer-icon:nth-child(3) {
+  font-size: 3em !important;
+  color: white;
+}
+.Footer-icon:nth-child(3):hover {
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.05);
+}
+
+.Footer-icon:hover {
+  /* transition: transform 0.1s ease-in-out; */
+  /* transform: scale(1.1) !important; * to override material ui */
+  color: white;
+}
+
+.Footer-right {
+  color: white;
+  margin-right: 3em;
+}
+
+/* override material ui slider color */
+.progressBar {
+  display: flex;
+  max-width: 15vw !important;
+  align-items: center;
+  position: relative;
+}

@@ -1,0 +1,101 @@
+.Playlist-controls {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  margin: 20px 0 20px -30px;
+}
+
+.Playlist-icons {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.Playlist-icons > .MuiSvgIcon-root:hover {
+  color: white;
+}
+
+.Playlist-icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+/* .Playlist-icons > button {
+  color: rgba(255, 255, 255, 0.686);
+  background: none;
+  border: none;
+} */
+
+.Playlist-icons > button:hover {
+  color: white;
+}
+
+.Playlist-shuffle {
+  font-size: 80px !important;
+  color: #1ed15e !important;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Playlist-shuffle:hover {
+  color: #21df63 !important;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.05);
+}
+
+.Playlist-heart-filled {
+  color: #21df63 !important;
+}
+
+.Playlist-heart-filled:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.05);
+}
+
+.Playlist-heart-outline:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.05);
+}
+
+.Playlist-edit-toggle:hover {
+  color: white;
+  cursor: pointer;
+}
+.Playlist-edit-buttons {
+  position: absolute;
+  z-index: 2;
+  transform: translate(40px, -50px);
+}
+.Playlist-edit-buttons > button {
+  display: flex;
+  font-size: 1.2em;
+  color: white;
+  background-color: rgb(18, 18, 18);
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 10px;
+  margin: 4px 0;
+}
+.Playlist-edit-buttons > button:first-child:hover {
+  background-color: rgb(50, 50, 50);
+}
+.Playlist-edit-buttons > button:last-child:hover {
+  background-color: rgb(114, 32, 32);
+}
+
+.Playlist-sorting {
+  flex: 0.2;
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px;
+}
+
+.Playlist-form > select {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.686);
+  background: transparent;
+  width: 8.5em;
+  border: none;
+  margin: 0 2em;
+}
